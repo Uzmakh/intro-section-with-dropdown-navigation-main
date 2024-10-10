@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@500;700&display=swap');
+
+*, *::before,*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --almost-white: hsl(0, 0%, 98%) ;
+    --medium-gray: hsl(0, 0%, 41%); 
+    --almost-black: hsl(0, 0%, 8%);
+}
+
+body{
+    font-family: "Epilogue", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+   .attribution {
+       font-size: 11px;
+       text-align: center;
+   }
+
+   .attribution a {
+       color: hsl(228, 45%, 44%);
+   }

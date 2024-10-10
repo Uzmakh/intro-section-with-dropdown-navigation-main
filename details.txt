@@ -1,0 +1,9 @@
+Main Features:
+- desktop and mobile view (Responsiveness)
+- logo-menubar-login-Register 
+- dropdown navigation
+-Hero Section
+   - Hero-Text   
+   - Hero-Image
+- h1,p and button
+- 4 brand-names
