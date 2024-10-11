@@ -107,6 +107,7 @@ button:nth-child(2):hover {
 
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .hero-text {
   margin-top: 150px;
@@ -284,13 +285,4 @@ button:nth-child(2):hover {
   }
 }
 
-/* footer */
-.attribution {
-  margin: 0px;
-  font-size: 11px;
-  text-align: center;
-}
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
