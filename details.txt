@@ -1,7 +1,8 @@
 Main Features:
 - desktop and mobile view (Responsiveness)
-- logo-menubar-login-Register 
+- logo-menubar(dropdown)-login-Register 
 - dropdown navigation
+-Active States
 -Hero Section
    - Hero-Text   
    - Hero-Image

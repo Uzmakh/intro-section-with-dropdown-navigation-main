@@ -11,21 +11,181 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    Features Company Careers About Login Register Make remote work Get your team
-    in sync, no matter your location. Streamline processes, create team rituals,
-    and watch productivity soar. Learn more
+    <nav>
+      <!-- logo -->
+      <a href="/" class="logo">
+        <img src="images/logo.svg" alt="company logo" />
+      </a>
+
+      <!-- hamburger -->
+      <a href="#" class="ham">
+        <img src="images/icon-menu.svg" alt="open menu" />
+      </a>
+
+      <!-- desktop nav -->
+      <div class="desktop-nav">
+        <!-- first menu-item -->
+        <div class="dropdown">
+          <div class="menu-item">
+            Features
+            <img
+              src="images/icon-arrow-down.svg"
+              alt="arrow down"
+              class="dropbtn"
+            />
+          </div>
+          <div class="dropdown-content">
+            <a href="#"><img src="images/icon-todo.svg" alt="" />TodoList</a>
+            <a href="#"
+              ><img src="images/icon-calendar.svg" alt="" />Calendar</a
+            >
+            <a href="#"
+              ><img src="images/icon-reminders.svg" alt="" />Reminders</a
+            >
+            <a href="#"
+              ><img src="images/icon-planning.svg" alt="" />Planning</a
+            >
+          </div>
+        </div>
+        <!-- second menu-item -->
+        <div class="dropdown">
+          <div class="menu-item">
+            Company
+            <img
+              src="images/icon-arrow-down.svg"
+              alt="arrow down"
+              class="dropbtn"
+            />
+          </div>
+          <div class="dropdown-content">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <!-- third menu-item -->
+        <a href="#">Careers</a>
+        <!-- forth menu-item -->
+        <a href="#">About</a>
+      </div>
+      <!-- desktop-nav -->
+
+      <div class="nav-btns">
+        <button>Login</button>
+        <button>Register</button>
+      </div>
+    </nav>
+
+    <!-- mobile-overlay -->
+    <div class="overlay">
+      <div class="mobile-nav">
+        <img
+          src="images/icon-close-menu.svg"
+          alt="close menu"
+          class="close-menu"
+        />
+        <div class="mobile-nav-container">
+          <!-- first menu-item -->
+          <div class="dropdown">
+            <div class="dropdown-menu-item">
+              Features
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow down"
+                class="dropbtn"
+              />
+            </div>
+            <div class="dropdown-content">
+              <a href="#"><img src="images/icon-todo.svg" alt="" />TodoList</a>
+              <a href="#"
+                ><img src="images/icon-calendar.svg" alt="" />Calendar</a
+              >
+              <a href="#"
+                ><img src="images/icon-reminders.svg" alt="" />Reminders</a
+              >
+              <a href="#"
+                ><img src="images/icon-planning.svg" alt="" />Planning</a
+              >
+            </div>
+          </div>
+          <!-- second menu-item -->
+          <div class="dropdown">
+            <div class="dropdown-menu-item">
+              Company
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow down"
+                class="dropbtn"
+              />
+            </div>
+            <div class="dropdown-content">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+          <!-- third menu-item -->
+          <a href="#">Careers</a>
+          <!-- forth menu-item -->
+          <a href="#">About</a>
+
+          <div class="nav-btns">
+            <button>Login</button>
+            <button>Register</button>
+          </div>
+        </div>
+        <!-- mobile-nav-container -->
+      </div>
+      <!-- mobile-nav -->
+    </div>
+    <!-- overlay -->
+
+    <!--------------
+       hero-section
+      -------------->
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Make <br />remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="brand-logos">
+          <img src="images/client-audiophile.svg" alt="" />
+          <img src="images/client-databiz.svg" alt="" />
+          <img src="images/client-maker.svg" alt="" />
+          <img src="images/client-meet.svg" alt="" />
+        </div>
+      </div>
+      <!-- /hero-text -->
+      <div class="img-container">
+        <img src="images/image-hero-desktop.png" alt="" id="hero-img" />
+      </div>
+      <!-- img-container -->
+      <!-- Alternative Code -->
+      <!-- <div class="hero-right">
+            <picture>
+              <source media="(max-width: 1024px)" srcset="images/image-hero-mobile.png">
+              <source media="(min-width: 1025px)" srcset="images/image-hero-desktop.png">
+            <img src="images/image-hero-desktop.png" alt="Hero Image" />
+          </picture>
+          </div> -->
+    </div>
+    <!-- hero -->
 
     <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      Challenge by<a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor.</a
+      >Coded by <a href="#">Uzma Khan</a>.
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
