@@ -243,7 +243,7 @@ a:nth-child(2):hover {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
-    right: 30px;
+    right: 25px;
   }
   .show {
     display: flex;
