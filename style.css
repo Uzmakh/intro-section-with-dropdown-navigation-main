@@ -194,10 +194,11 @@ a:nth-child(2):hover {
     display: block;
     border: none;
     outline: none;
-    position: fixed;
+    position: absolute;
     top: 30px;
     left: 300px;
     cursor: pointer;
+    background: transparent;
     transition: all 1s ease-in-out;
   }
   .ham.active {
@@ -206,8 +207,9 @@ a:nth-child(2):hover {
   .close-menu {
     display:none;
     cursor: pointer;
-    /* padding-left: 200px; */
-    /* z-index: 1000; */
+   position: fixed;
+    top: 30px;
+      left: 300px;
     transition: all 0.3s ease-in-out;
   }
 
