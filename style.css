@@ -15,13 +15,7 @@
 
 body {
   font-family: "Epilogue", sans-serif;
-  /* max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden; */
+  overflow: hidden;
 }
 a {
   text-decoration: none;
@@ -37,14 +31,13 @@ nav {
   align-items: center;
   padding: 0 20px;
 }
-nav a {
+nav .logo {
   margin: 20px;
 }
 
-.ham, .close-menu{
-  display: none;
-}
-.overlay {
+.ham,
+.close-menu,
+overlay {
   display: none;
 }
 
@@ -178,11 +171,6 @@ a:nth-child(2):hover {
   }
 }
 @media (max-width: 900px) {
-  body {
-    /* max-width: 800px;
-    margin: 0 auto; */
-    overflow-x: hidden;
-  }
   nav {
     /* padding: 20px; */
     display: flex;
@@ -205,11 +193,11 @@ a:nth-child(2):hover {
     display: none;
   }
   .close-menu {
-    display:none;
+    display: none;
     cursor: pointer;
-   position: fixed;
+    position: fixed;
     top: 30px;
-      left: 300px;
+    left: 300px;
     transition: all 0.3s ease-in-out;
   }
 
@@ -221,11 +209,11 @@ a:nth-child(2):hover {
     /* background: transparent; */
     background: var(--almost-white);
     width: 300px;
-      height: 100vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     right: -300px;
-   
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -256,16 +244,14 @@ a:nth-child(2):hover {
   }
   /**nav-buttons */
   nav .desktop-nav .nav-btns {
-    /* margin-top: 20px; */
     margin: 0;
     display: flex;
     flex-direction: column;
-    /* margin-right: 1000px; */
   }
   .nav-btns a:nth-child(1) {
     margin-left: 100px;
     margin-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
   .nav-btns a:nth-child(2) {
     margin-left: 45px;
@@ -326,24 +312,4 @@ a:nth-child(2):hover {
     width: 80px;
     margin-left: 10px;
   }
-
-  /* .show {
-    display: flex;
-  }
-  .lock {
-    overflow: hidden;
-  } */
-
-  /* .mobile-nav-container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-  }
-  .mobile-nav-container > * {
-    margin: 0;
-    padding: 10px;
-  } */
 }
