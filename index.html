@@ -20,11 +20,17 @@
       <a href="/" class="logo">
         <img src="images/logo.svg" alt="company logo" />
       </a>
-
+      <!-- mobile-menu-icons -->
       <!-- hamburger -->
-      <a href="#" class="ham">
+      <button class="icon-menu ham">
         <img src="images/icon-menu.svg" alt="open menu" />
-      </a>
+      </button>
+      <!-- close-menu -->
+      <img
+        src="images/icon-close-menu.svg"
+        alt="close menu"
+        class="icon-menu close-menu"
+      />
 
       <!-- desktop nav -->
       <div class="desktop-nav">
@@ -68,80 +74,18 @@
           </div>
         </div>
         <!-- third menu-item -->
-        <a href="#">Careers</a>
+        <div class="menu-item"><a href="#">Careers</a></div>
         <!-- forth menu-item -->
-        <a href="#">About</a>
+        <div class="menu-item"><a href="#">About</a></div>
+        <div class="nav-btns">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+        </div>
       </div>
       <!-- desktop-nav -->
 
-      <div class="nav-btns">
-        <a href="#">Login</a>
-        <a href="#">Register</a>
-      </div>
-
       <!-- mobile-overlay -->
-      <div class="overlay">
-        <div class="mobile-nav">
-          <img
-            src="images/icon-close-menu.svg"
-            alt="close menu"
-            class="close-menu"
-          />
-          <div class="mobile-nav-container">
-            <!-- first menu-item -->
-            <div class="dropdown">
-              <div class="dropdown-menu-item">
-                Features
-                <img
-                  src="images/icon-arrow-down.svg"
-                  alt="arrow down"
-                  class="dropbtn"
-                />
-              </div>
-              <div class="dropdown-content">
-                <a href="#"
-                  ><img src="images/icon-todo.svg" alt="" />TodoList</a
-                >
-                <a href="#"
-                  ><img src="images/icon-calendar.svg" alt="" />Calendar</a
-                >
-                <a href="#"
-                  ><img src="images/icon-reminders.svg" alt="" />Reminders</a
-                >
-                <a href="#"
-                  ><img src="images/icon-planning.svg" alt="" />Planning</a
-                >
-              </div>
-            </div>
-            <!-- second menu-item -->
-            <div class="dropdown">
-              <div class="dropdown-menu-item">
-                Company
-                <img
-                  src="images/icon-arrow-down.svg"
-                  alt="arrow down"
-                  class="dropbtn"
-                />
-              </div>
-              <div class="dropdown-content">
-                <a href="#">History</a>
-                <a href="#">Our Team</a>
-                <a href="#">Blog</a>
-              </div>
-            </div>
-            <!-- third menu-item -->
-            <a href="#">Careers</a>
-            <!-- forth menu-item -->
-            <a href="#">About</a>
-          </div>
-          <!-- mobile-nav-container -->
-          <div class="nav-btns">
-            <a href="#">Login</a>
-            <a href="#">Register</a>
-          </div>
-        </div>
-        <!-- mobile-nav -->
-      </div>
+      <div class="overlay"></div>
       <!-- overlay -->
     </nav>
 
@@ -165,17 +109,12 @@
       </div>
       <!-- /hero-text -->
       <div class="img-container">
-        <img src="images/image-hero-desktop.png" alt="" id="hero-img" />
+        <img
+          src="images/image-hero-desktop.png"
+          alt="desktop image"
+          class="hero-img"
+        />
       </div>
-      <!-- img-container -->
-      <!-- Alternative Code -->
-      <!-- <div class="hero-right">
-            <picture>
-              <source media="(max-width: 1024px)" srcset="images/image-hero-mobile.png">
-              <source media="(min-width: 1025px)" srcset="images/image-hero-desktop.png">
-            <img src="images/image-hero-desktop.png" alt="Hero Image" />
-          </picture>
-          </div> -->
     </div>
     <!-- hero -->
 
