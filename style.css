@@ -47,6 +47,9 @@ overlay {
   align-items: center;
   margin-left: 30px;
 }
+.desktop-nav .menu-item {
+  margin-left: 25px;
+}
 
 .dropdown {
   position: relative;
